@@ -1,0 +1,439 @@
+@charset "UTF-8";
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.learn img {
+  width: 100px;
+  margin: 0 130px;
+  width: 150px;
+}
+
+.parent {
+  margin: 0 0 0 0;
+}
+
+.child {
+  color: black;
+  padding: 10px;
+  height: 10px;
+  float: right;
+}
+
+.header__btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.header__btn1 {
+  width: 150px;
+  padding: 15px 0;
+  color: #fff;
+  border-radius: 50px;
+  background: #ee82ee;
+  text-align: center;
+  margin: 0 10px;
+  display: block;
+}
+
+.header__btn2 {
+  width: 150px;
+  padding: 15px 0;
+  color: #fff;
+  border-radius: 50px;
+  background: #ee82ee;
+  text-align: center;
+  margin: 0 10px;
+  display: block;
+  background: #6495ed;
+}
+
+.firstview {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.learn__logo {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+}
+
+.learn__background1 {
+  display: block;
+  position: relative;
+  object-position: 0 150px;
+  top: -130px;
+}
+
+.learn__ttl1 {
+  position: absolute;
+  top: 90px;
+  left: 220px;
+  font-size: 44px;
+}
+
+.learn__ttl2 {
+  position: absolute;
+  top: 270px;
+  left: 220px;
+  font-size: 15px;
+}
+
+.learn__btn {
+  width: 300px;
+  padding: 15px 0;
+  color: #fff;
+  border-radius: 50px;
+  background: #ee82ee;
+  text-align: center;
+  display: block;
+  position: absolute;
+  left: 220px;
+  top: 350px;
+}
+
+.ordermade {
+  background-color: #fdf5e6;
+  margin-top: 0px;
+}
+
+.ordermade__img img {
+  width: 60%;
+}
+
+.ordermade__img {
+  margin: 110px -55px;
+}
+
+.ordermade__ttl {
+  position: absolute;
+  left: 730px;
+  top: 1050px;
+}
+
+.trouble {
+  margin: 100px;
+}
+
+.trouble__ttl {
+  font-size: 40px;
+  text-align: center;
+}
+
+.trouble__img {
+  display: flex;
+  justify-content: center;
+}
+
+.trouble__img1 {
+  margin: 0 20px;
+}
+
+.trouble__txt {
+  display: flex;
+  justify-content: center;
+}
+
+.trouble__txt1 {
+  margin: 0 50px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.solution {
+  background-color: #fdf5e6;
+  height: 1350px;
+}
+
+.solution__ttl {
+  position: relative;
+  text-align: center;
+  top: 70px;
+  font-size: 40px;
+}
+
+.solution__txtbox1 {
+  margin: 100px 130px;
+}
+
+.solution__no1 {
+  display: inline-block;
+  color: #ee82ee;
+  position: relative;
+  top: -10px;
+}
+
+.solution__ttl1 {
+  display: inline-block;
+}
+
+.solution__text1 {
+  font-size: 14px;
+  margin: 0 0 0 0;
+}
+
+.solution__img1 {
+  position: absolute;
+  top: 2300px;
+  left: 650px;
+}
+
+.solution__txtbox2 {
+  margin: 200px 700px;
+  width: 700px;
+}
+
+.solution__no2 {
+  display: inline-block;
+  color: #ee82ee;
+  position: relative;
+  top: -10px;
+}
+
+.solution__ttl2 {
+  display: inline-block;
+}
+
+.solution__text2 {
+  font-size: 14px;
+  margin: 0 0 0 0;
+}
+
+.solution__img2 {
+  position: absolute;
+  top: 2700px;
+  left: 100px;
+}
+
+.solution__txtbox3 {
+  margin: 100px 130px 0 100px;
+}
+
+.solution__no3 {
+  display: inline-block;
+  color: #ee82ee;
+  position: relative;
+  top: -10px;
+}
+
+.solution__ttl3 {
+  display: inline-block;
+}
+
+.solution__text3 {
+  font-size: 14px;
+  margin: 0 0 0 0;
+}
+
+.solution__img3 {
+  position: absolute;
+  top: 3100px;
+  left: 650px;
+}
+
+.feature {
+  height: 400px;
+}
+
+.feature__ttl {
+  position: relative;
+  text-align: center;
+  top: 70px;
+  font-size: 40px;
+}
+
+.feature__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 110px 0 110px;
+}
+
+.feature__box {
+  width: 160px;
+  box-shadow: 0px 3px 10px #ee82ee;
+  border-radius: 30px;
+}
+
+.feature__img {
+  position: relative;
+  left: 29px;
+  top: 20px;
+}
+
+.feature__text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.banner {
+  background-color: #ee82ee;
+  height: 280px;
+}
+
+.banner__ttl {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+}
+
+.banner__btn1 {
+  width: 300px;
+  padding: 15px 0;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 350px;
+  top: 100px;
+  margin: 10px;
+  color: #fff;
+  background: #6495ed;
+}
+
+.banner__btn2 {
+  width: 300px;
+  padding: 15px 0;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 350px;
+  top: 100px;
+  margin: 10px;
+  color: #fff;
+  background: #6495ed;
+  color: #ee82ee;
+  background: white;
+}
+
+.intro__company__ttl {
+  text-align: center;
+  margin: 70px;
+  font-size: 40px;
+}
+
+.intro__company__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__company__box {
+  width: 30%px;
+  box-shadow: 0px 3px 10px #dcdcdc;
+  margin: 0 10px 0 0;
+  border-radius: 30px;
+}
+
+.intro__company__img img {
+  width: 260px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.intro__company__img::after {
+  position: relative;
+  top: -23px;
+  left: 20px;
+  padding: 0 10px;
+  font-size: 14px;
+  content: "建築";
+  border: 1px solid #ee82ee;
+  background-color: white;
+}
+
+.intro__company__content {
+  padding: 5px 10px;
+  background: white;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: black;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.intro__company__text1 {
+  font-size: 14px;
+  text-align: left;
+  margin: -10px 0 0;
+}
+
+.intro__company__text2 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cost {
+  margin: 0 220px;
+}
+
+.cost__ttl {
+  text-align: center;
+  margin: 70px;
+  font-size: 40px;
+}
+
+.table {
+  margin: 20px auto;
+}
+
+table tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  text-align: center;
+  padding: 20px 0;
+  border-right: solid 1px #ddd;
+  border-left: solid 1px #ddd;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+table th:nth-child(1) {
+  background-color: #6495ed;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+table th:nth-child(2) {
+  background-color: #ee82ee;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+table th:nth-child(3) {
+  background-color: #6495ed;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+table tr:nth-child(2) td {
+  font-size: 17px;
+  padding: 30px;
+  text-align: center;
+}
+
+table tr:nth-child(3) td {
+  padding-bottom: 20px;
+}
+
+table td a {
+  width: 270px;
+  padding: 20px 0;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  background: #dcdcdc;
+}
