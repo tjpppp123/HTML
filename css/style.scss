@@ -379,53 +379,11 @@ $background__color: #fdf5e6;
   font-size: 40px;
 }
 
-.table {
-  margin: 20px auto;
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  writing-mode: horizontal-tb;
 }
 
-table tr:last-child {
-  border-bottom: 1px solid #ddd;
-}
-table th {
-  text-align: center;
-  padding: 20px 0;
-  border-right:solid 1px #ddd;
-  border-left:solid 1px #ddd;
-  font-size: 15px;
-  font-weight: lighter;
-}
-table th:nth-child(1) {
-  background-color:$blue;
-  color: #fff;
-  border-radius: 15px 15px 0 0;
-}
-table th:nth-child(2) {
-  background-color:$pink;
-  color: #fff;
-  border-radius: 15px 15px 0 0;
-}
-table th:nth-child(3) {
-  background-color:$blue;
-  color: #fff;
-  border-radius: 15px 15px 0 0;
-}
-
-
-table tr:nth-child(2) td {
-  font-size: 17px;
-  padding: 30px;
-  text-align: center;
-}
-
-table tr:nth-child(3) td {
-  padding-bottom: 20px;
-}
-table td a {
-  width: 270px;
-  padding: 20px 0;
-  border-radius: 50px;
-  text-align: center;
-  display: inline-block;
-  margin: 10px;
-  background: #dcdcdc;
-}
