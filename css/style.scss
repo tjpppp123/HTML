@@ -370,7 +370,7 @@ $background__color: #fdf5e6;
 }
 
 .cost {
-  margin: 0 220px;
+  margin: 130px 220px;
 }
 
 .cost__ttl {
@@ -379,11 +379,224 @@ $background__color: #fdf5e6;
   font-size: 40px;
 }
 
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 50%;
-  writing-mode: horizontal-tb;
+@mixin cost__standardplan__box {
+  width: 300px;
+  box-shadow: 0px 3px 10px #dcdcdc ;
+  border-radius: 15px;
+  float: left;
 }
 
+
+@mixin cost__plan__ttl1 {
+  background: $blue;
+  color: white;
+  font-size: 15px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  margin: 0px auto;
+  font-weight: lighter;
+  height: 30px;
+}
+
+@mixin cost__plan__ttl2 {
+  background: $blue;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@mixin cost__standardplan__text {
+  text-align: center;
+  font-size: 15px;
+  margin: 25px;
+  padding-bottom: 5px ;
+  line-height: 20px;
+  border-bottom: solid 2px #dcdcdc;
+}
+
+@mixin cost__plan__btn {
+  width: 250px;
+  padding: 15px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  background: #dcdcdc;
+}
+
+
+.plan {
+  margin: 0 auto;
+}
+
+.standardplan__f {
+  @include cost__standardplan__box();
+}
+
+.standardplan__f__ttl1 {
+  @include cost__plan__ttl1();
+}
+
+.standardplan__f__ttl2 {
+  @include cost__plan__ttl2();
+}
+
+.standardplan__f__text {
+  @include cost__standardplan__text();
+}
+
+.standardplan__f__btn {
+  @include cost__plan__btn();
+}
+
+.standardplan__10k {
+  width: 300px;
+  box-shadow: 0px 3px 10px #dcdcdc ;
+  border-radius: 15px;
+  height: 380px;
+  float: left;
+  margin-top: -40px
+}
+
+.standardplan__10k__ttl1 {
+  @include cost__plan__ttl1();
+  background-color: $pink;
+}
+
+.standardplan__10k__ttl2 {
+  @include cost__plan__ttl2();
+  background-color: $pink;
+}
+
+.standardplan__10k__text {
+  @include cost__standardplan__text();
+}
+
+.standardplan__10k__btn {
+  @include cost__plan__btn();
+}
+
+.premiumplan {
+  width: 290px;
+  box-shadow: 0px 3px 10px #dcdcdc ;
+  border-radius: 15px;
+  float: left;
+}
+
+.premiumplan__ttl1 {
+  @include cost__plan__ttl1();
+}
+
+.premiumplan__ttl2 {
+  @include cost__plan__ttl2();
+}
+
+.premiumplan__text {
+  @include cost__standardplan__text();
+}
+
+.premiumplan__btn {
+  @include cost__plan__btn();
+}
+
+.question {
+  margin-top: 560px;
+}
+
+.question__ttl {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.question__box {
+  margin: 0 auto;
+}
+
+.question__ttlbox {
+  border: solid 1px $pink;
+  border-radius: 15px;
+  width: 750px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.question__ttl1 {
+  color: $pink;
+  margin-left: 50px;
+  margin-top: -5px;
+  font-weight: bold;
+}
+
+.answer {
+  margin: -30px 0 70px 338px;
+  width: 700px;
+}
+
+.answer__text {
+  font-weight: bold;
+}
+
+.question__ttlbox::before {
+  content: "Q";
+  display: block;
+  position: relative;
+  top: 17px;
+  left: 20px;
+  color: $pink;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.question__ttlbox::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -35px;
+  left: 710px;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  transform: translateX(-50%) rotate(135deg);
+}
+
+.answer::before {
+  content: "A";
+  display: block;
+  position: relative;
+  top: 43px;
+  left: -25px;
+  color: $blue;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer__img {
+  position: relative;
+  left: 100px;
+}
+
+.footer__text {
+  margin: -80px 0 0 540px;
+}
+
+
+table td {
+  text-align:left;
+  padding: 14px 200px 0 0;
+  width: 300px;
+  font-weight: bold;
+}
+
+.copyright{
+  font-size: 12px;
+  position: relative;
+  top: 30px;
+  left: 610px;
+}
